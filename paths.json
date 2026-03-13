@@ -1,12 +1,12 @@
 {
   "mappings": [
-    "/content/aem-boilerplate-commerce/:/",
-    "/content/aem-boilerplate-commerce/configuration:/.helix/config.json",
-    "/content/aem-boilerplate-commerce/headers:/.helix/headers.json",
-    "/content/aem-boilerplate-commerce/metadata:/metadata.json",
-    "/content/aem-boilerplate-commerce.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
+    "/content/xwalk-storefront/:/",
+    "/content/xwalk-storefront/configuration:/.helix/config.json",
+    "/content/xwalk-storefront/headers:/.helix/headers.json",
+    "/content/xwalk-storefront/metadata:/metadata.json",
+    "/content/xwalk-storefront.resource/enrichment/enrichment.json:/enrichment/enrichment.json"
   ],
   "includes": [
-    "/content/aem-boilerplate-commerce/"
+    "/content/xwalk-storefront/", "content/dam", "/conf/xwalk-storefront"
   ]
 }
